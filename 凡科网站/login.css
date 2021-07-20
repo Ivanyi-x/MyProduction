@@ -1,0 +1,481 @@
+body{
+    margin: 0px;
+    background-color: rgb(243, 247, 249);
+}
+a {
+    text-decoration: none;
+}
+.header{
+   width: 100%;
+   height: 70px;
+   background-color: #fff;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+   /* background-color: burlywood; */
+
+}
+.logo{
+    width: 1380px;
+    height: 70px;
+    /* background-color: cadetblue; */
+    margin: 0 auto;
+}
+.logo-left{
+    width: 305px;
+    height: 70px;
+    float: left;
+    margin-left: 18px;
+
+}
+.fk{
+    margin-top: 15px;
+    margin-left: -8px;
+    width: 270px;
+    height: 39px;
+    position: relative;
+    display: inline-block;
+}
+.logo-content {
+    width: 140px;
+    height: 30px;
+    display: none;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.logo:hover .logo-content {
+    display: block;
+}
+.logo-right{
+    width: 372px;
+    height: 70px;
+    float: right;
+    /* background-color: blanchedalmond; */
+}
+.icon{
+    width: 34px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+
+.word-1 {
+    float: right;
+    width: 328.06px;
+    height: 24px;
+    font-size: 18px;
+    color: #738299;
+    padding-top: 20px;
+
+}
+.m-main{
+    width: 100%;
+    height: 670px;
+    /* background-color: lightsteelblue; */
+
+    
+}
+.homepage{
+    width: 1000px;
+    height: 600px;
+    margin: 90px auto 0;
+    box-shadow: 0px 0px 20px 0px rgba(12, 1, 4, 0.05);
+}
+
+.left-img{
+    width: 422px;
+    height: 600px;
+    /* background-color: plum; */
+    overflow: hidden;
+}
+.card{
+    width: 578px;
+    height: 600px;
+    background-color: #ffffff;
+    margin-top: -600px;
+    margin-left: 422px;
+    position: relative;
+
+
+}
+.right-card{
+    width: 195px;
+    height: 52px;
+    /* background-color: khaki; */
+    float: right;
+    margin: 14px 12px;
+
+}
+.icon-card{
+    width: 17px;
+    height: 17px;
+    /* background-color: rosybrown; */
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -25px;
+
+}
+.wx{
+    width: 20px;
+    height: 20px;
+    margin-top: -1px;
+}
+.text-card{
+    margin-left: 39px;
+    margin-top: -25px;
+    color: #738299;
+    font-size: 12px;
+}
+.ewm-card {
+    width: 59px;
+    height: 58px;
+    margin-left: 137px;
+    margin-top: -22px;
+}
+.switch-windows{
+    width: 550px;
+    height: 450px;
+    /* background-color: gray; */
+    overflow: hidden;
+
+}
+.switch{
+    width: 1100px;
+    height: 450px;
+    /* background-color: deepskyblue; */
+    /* position: absolute;
+    top: 120px;
+    left: 14px; */
+}
+
+.login-interface{
+    width: 550px;
+    height: 450px;
+    /* background-color: rosybrown; */
+    position: absolute;
+ 
+}    
+.title{
+    width: 334px;
+    height: 66px;
+    margin: 0 auto;
+    /* background-color:sandybrown; */
+} 
+.text-title{
+    width: 167px;
+    height: 44px;
+    margin-top: 27px;
+    /* background-color: burlywood; */
+    text-align: center;
+    font-size: 18px;
+    color: #a1a6bb;
+
+}
+.text-title2{
+    width: 167px;
+    height: 44px;
+    margin-left: 167px;
+    margin-top: -44px;
+    text-align: center;
+    /* background-color: darkkhaki; */
+    font-size: 18px;
+    color: #a1a6bb;
+}
+
+.interface{
+    width: 385px;
+    height: 350px;
+    /* background-color: darkgray; */
+    margin: 0 auto;
+
+}
+.input-box1{
+    width: 332px;
+    height: 47px;
+    border-radius: 22px;
+    margin: 0 auto;
+    border: solid 1px #e3e8f0;
+}
+
+.icon-interface{
+    width: 34px;
+    height: 29px;
+    margin-left: 14px;
+    margin-top: 8px;
+    position: absolute;
+    color: #bac3d3;
+
+
+}
+.input-account{
+    width: 265px;
+    height: 43px;
+    border: 0;
+    outline: none;
+    margin-left: 50px;
+    border-radius: 0 21px 21px 0;
+    margin-left: 54px;
+}
+
+.input-box2 {
+    position: absolute;
+    width: 332px;
+    height: 47px;
+    left: 105px;
+    border-radius: 22px;
+    border: solid 1px #e3e8f0;
+    top: 168px;
+}
+
+.icon-interface2 {
+    width: 19px;
+    height: 19px;
+    margin-left: 19px;
+    margin-top: 12px;
+
+}
+
+.input-account2 {
+    width: 265px;
+    height: 43px;
+    border-radius: 0 21px 21px 0;
+    position: absolute;
+    right: 8px;
+    border: 0;
+    outline: none;
+    color: #bac3d3;
+
+}
+.icon-interface3 {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 12px;
+    top: 9px;
+
+}
+.checkbox1{
+    width: 160px;
+    height: 65px;
+    margin-left: 44px;
+    /* background-color: cornflowerblue; */
+    margin-top: 98px;
+   font-size: 14px;
+}
+.checkbox{
+    font-size: 14px;
+    color: #3a405b;
+    padding-top: 162px;
+}
+.checkbox2{
+    margin-top: 18px;
+    
+}
+.text-checkbox{
+    position: absolute;
+    color: rgba(158,161,177,1);
+    right: 130px;
+    top: 240px;
+
+}
+.checkbox3{
+        border-radius: 25px;
+        width: 330px;
+        height: 50px;
+        /* <取消边框> */
+        border: 0;
+        /* <取消点击时的边框> */
+        outline: none;
+        margin-top: 22px;
+        font-size: 18px;
+        color: #fff;
+        margin-left: 24px;
+        background-color:rgba(0, 118 ,254, 1)
+
+}
+.checkbox3:hover{
+    background-color:rgba(0, 118 ,254, 0.7)
+}
+.checkbox4{
+    width: 330px;
+    height: 28px;
+    /* background-color: coral; */
+    margin-left: 31px;
+    margin-top: 22px;
+    font-size: 14px;
+    color: #a1a6bb;
+}
+
+.text-chechbox4{
+    width: 130px;
+    height: 26px;
+    /* color: #a1a6bb; */
+    text-align: center;
+    /* background-color: cadetblue; */
+
+}
+
+.icon-chechbox4{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 106px;
+}
+
+.register-chechbox4{
+    width: 86px;
+    height: 26px;
+    float: right;
+    margin-top: -18px;
+    font-size: 14px;
+    color: #a1a6bb;
+
+}
+
+.login-interface2{
+    position: relative;
+    width: 550px;
+    height: 450px;
+    /* position: absolute; */
+    background-color: #ffffff;
+    left: 550px;
+}
+.input-box22 {
+    position: absolute;
+    width: 210px;
+    height: 47px;
+    left: 111px;
+    border-radius: 22px;
+    border: solid 1px #e3e8f0;
+    top: 168px;
+}
+.input-account22 {
+    width: 147px;
+    height: 43px;
+    border-radius: 0 21px 21px 0;
+    position: absolute;
+    right: 8px;
+    border: 0;
+    outline: none;
+    color: #bac3d3;
+
+}
+.checkbox33{
+    border-radius: 25px;
+    width: 109px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    /* margin-top: 0px; */
+    font-size: 14px;
+    color: #fff;
+    /* padding-left: 12px; */
+    background-color: #f1f7ff;
+    position: absolute;
+    left: 216px;
+    /* float: right; */
+    color: #bac3d3;
+}
+.checkbox11 {
+    width: 160px;
+    height: 65px;
+    margin-left: 44px;
+    /* background-color: cornflowerblue; */
+    margin-top: 98px;
+    font-size: 16px;
+}
+
+
+.checkbox5 {
+    border-radius: 25px;
+    width: 330px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    margin-top: -31px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 24px;
+    background-color: rgba(0, 118 ,254, 1);
+}
+.checkbox5:hover{
+    background-color: rgba(0, 118 ,254, 0.7);
+}
+.checkbox44{
+    width: 330px;
+    height: 28px;
+    /* background-color: coral; */
+    margin-left: 31px;
+    margin-top: 22px;
+    font-size: 14px;
+    color: #a1a6bb;
+}
+
+.icon-chechbox44 {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 106px;
+}
+
+.register-chechbox44 {
+    width: 86px;
+    height: 26px;
+    float: right;
+    margin-top: -18px;
+    font-size: 14px;
+    color: #a1a6bb;
+}
+
+
+
+
+
+
+
+.last{
+    width: 100%;
+    height: 50px;
+    /* background-color: darkgray; */
+}
+.last-center{
+    width: 850px;
+    height: 50px;
+    margin: 0 auto;
+    /* background-color: darkseagreen; */
+}
+.gh-icon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin-left: 20px;
+    /* background-color: darkturquoise; */
+}
+.gh{
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+
+}
+.last-text{
+    font-size: 12px;
+    color: #667790;
+    padding-left: 44px;
+}
+
+.wz-icon{
+    float: right;
+    margin-top: -26px;
+}
+
+
+
+
+
+
+   
+
+
+
